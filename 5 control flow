@@ -1,0 +1,9 @@
+x = 10
+y = 10
+if  x == y:
+  print("equal")
+elif x > y:
+    print("greater")
+else:
+    pass
+    print("smaller")
