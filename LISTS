@@ -1,0 +1,29 @@
+LISTS
+numbers = [1, 2, 3, 4, 5]
+mixed = [1, "hello", 3.14]
+accessing items
+print(numbers[0])
+print(numbers[-1])
+modify
+numbers[0] = 10
+print(numbers)
+adding
+numbers.append(7)
+numbers
+insert
+numbers.insert(1, 15)
+numbers
+remove
+numbers.remove(6)
+numbers
+pop
+numbers.pop(1)
+numbers
+operations
+len(numbers)
+numbers.sort()
+numbers
+numbers.reverse()
+numbers
+
+
