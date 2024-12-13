@@ -1,25 +1,25 @@
 LISTS
 numbers = [1, 2, 3, 4, 5]
 mixed = [1, "hello", 3.14]
-accessing items
+ACCESSING ITEMS
 print(numbers[0])
 print(numbers[-1])
-modify
+MODIFY
 numbers[0] = 10
 print(numbers)
-adding
+ADDING
 numbers.append(7)
 numbers
-insert
+INSERT
 numbers.insert(1, 15)
 numbers
-remove
+REMOVE
 numbers.remove(6)
 numbers
-pop
+POP
 numbers.pop(1)
 numbers
-operations
+OPERATIONS
 len(numbers)
 numbers.sort()
 numbers
