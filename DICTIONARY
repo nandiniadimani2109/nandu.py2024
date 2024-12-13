@@ -4,15 +4,15 @@ student = {
     "marks": 85
 }
 student
-access
+ACCESS
 student["name"]
 student["age"]
-add
+ADD
 student["grade"] = "A"
 print(student["grade"])
-remove
+REMOVE
 del student["marks"]
 student
-iterating
+ITERATING
 for key, value in student.items():
   print(key, value)
