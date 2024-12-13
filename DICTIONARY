@@ -1,0 +1,18 @@
+student = {
+    "name": "nandu",
+    "age": 17,
+    "marks": 85
+}
+student
+access
+student["name"]
+student["age"]
+add
+student["grade"] = "A"
+print(student["grade"])
+remove
+del student["marks"]
+student
+iterating
+for key, value in student.items():
+  print(key, value)
