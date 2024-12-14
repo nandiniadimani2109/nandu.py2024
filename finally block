@@ -1,0 +1,6 @@
+try:
+  file = open("/content/nammu.txt", "r")
+except FileNotFoundError:
+  print("File not found.")
+finally:
+  print("Execution complete.")
