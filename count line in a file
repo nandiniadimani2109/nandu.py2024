@@ -1,0 +1,5 @@
+with open("/content/nandini. txt.txt", "r") as file:
+  with open("/content/nandini. txt.txt", "r") as file:
+        line_count = sum(1 for line in file)
+
+print(f"Number of lines in /content/nandini. txt.txt: {line_count}")
