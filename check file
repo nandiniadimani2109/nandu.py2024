@@ -1,0 +1,6 @@
+import os
+
+if os.path.isfile("/content/nandini. txt.txt"):
+    print("The file '/content/nandini. txt.txt' exists.")
+else:
+    print("The file '/content/nandini. txt.txt' does not exist.")
